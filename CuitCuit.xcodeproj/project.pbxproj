@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B03CF1C1C34575500E05D57 /* user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B03CF1B1C34575500E05D57 /* user_icon.png */; };
+		2B03CF201C34575500E05D57 /* StatusDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03CF1F1C34575500E05D57 /* StatusDetailViewController.swift */; };
 		2BCDD17C1C3309DE004CC265 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDD17B1C3309DE004CC265 /* AppDelegate.swift */; };
-		2BCDD17E1C3309DE004CC265 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDD17D1C3309DE004CC265 /* ViewController.swift */; };
+		2BCDD17E1C3309DE004CC265 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDD17D1C3309DE004CC265 /* LoginViewController.swift */; };
 		2BCDD1811C3309DE004CC265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDD17F1C3309DE004CC265 /* Main.storyboard */; };
 		2BCDD1831C3309DE004CC265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDD1821C3309DE004CC265 /* Assets.xcassets */; };
 		2BCDD1861C3309DE004CC265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDD1841C3309DE004CC265 /* LaunchScreen.storyboard */; };
+		2BCDD18F1C3309DE004CC265 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD18D1C3309DE004CC265 /* Bolts.framework */; };
+		2BCDD1901C3309DE004CC265 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD18E1C3309DE004CC265 /* Parse.framework */; };
+		2BCDD1991C3309DE004CC265 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD1911C3309DE004CC265 /* AudioToolbox.framework */; };
+		2BCDD19A1C3309DE004CC265 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD1921C3309DE004CC265 /* CFNetwork.framework */; };
+		2BCDD19B1C3309DE004CC265 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD1931C3309DE004CC265 /* CoreGraphics.framework */; };
+		2BCDD19C1C3309DE004CC265 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD1941C3309DE004CC265 /* CoreLocation.framework */; };
+		2BCDD19D1C3309DE004CC265 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD1951C3309DE004CC265 /* QuartzCore.framework */; };
+		2BCDD19E1C3309DE004CC265 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD1961C3309DE004CC265 /* Security.framework */; };
+		2BCDD19F1C3309DE004CC265 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD1971C3309DE004CC265 /* StoreKit.framework */; };
+		2BCDD1A01C3309DE004CC265 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD1981C3309DE004CC265 /* SystemConfiguration.framework */; };
+		2BCDD1A21C3309DE004CC265 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD1A11C3309DE004CC265 /* libz.tbd */; };
+		2BCDD1A41C3309DE004CC265 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDD1A31C3309DE004CC265 /* libsqlite3.tbd */; };
+		2BCDD1A61C3309DE004CC265 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDD1A51C3309DE004CC265 /* RegisterViewController.swift */; };
+		2BCDD1A81C3309DE004CC265 /* StatusUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDD1A71C3309DE004CC265 /* StatusUpdateViewController.swift */; };
+		2BCDD1AA1C3309DE004CC265 /* LiveUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDD1A91C3309DE004CC265 /* LiveUpdateViewController.swift */; };
+		2BCDD1AC1C3309DE004CC265 /* StatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDD1AB1C3309DE004CC265 /* StatusCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B03CF1B1C34575500E05D57 /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_icon.png; sourceTree = "<group>"; };
+		2B03CF1F1C34575500E05D57 /* StatusDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusDetailViewController.swift; sourceTree = "<group>"; };
 		2BCDD1781C3309DE004CC265 /* CuitCuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuitCuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCDD17B1C3309DE004CC265 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BCDD17D1C3309DE004CC265 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BCDD17D1C3309DE004CC265 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2BCDD1801C3309DE004CC265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BCDD1821C3309DE004CC265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BCDD1851C3309DE004CC265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BCDD1871C3309DE004CC265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCDD18D1C3309DE004CC265 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2BCDD18E1C3309DE004CC265 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		2BCDD1911C3309DE004CC265 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2BCDD1921C3309DE004CC265 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2BCDD1931C3309DE004CC265 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BCDD1941C3309DE004CC265 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2BCDD1951C3309DE004CC265 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2BCDD1961C3309DE004CC265 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2BCDD1971C3309DE004CC265 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2BCDD1981C3309DE004CC265 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2BCDD1A11C3309DE004CC265 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2BCDD1A31C3309DE004CC265 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2BCDD1A51C3309DE004CC265 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2BCDD1A71C3309DE004CC265 /* StatusUpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusUpdateViewController.swift; sourceTree = "<group>"; };
+		2BCDD1A91C3309DE004CC265 /* LiveUpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveUpdateViewController.swift; sourceTree = "<group>"; };
+		2BCDD1AB1C3309DE004CC265 /* StatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +65,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BCDD1A41C3309DE004CC265 /* libsqlite3.tbd in Frameworks */,
+				2BCDD1A21C3309DE004CC265 /* libz.tbd in Frameworks */,
+				2BCDD1991C3309DE004CC265 /* AudioToolbox.framework in Frameworks */,
+				2BCDD19A1C3309DE004CC265 /* CFNetwork.framework in Frameworks */,
+				2BCDD19B1C3309DE004CC265 /* CoreGraphics.framework in Frameworks */,
+				2BCDD19C1C3309DE004CC265 /* CoreLocation.framework in Frameworks */,
+				2BCDD19D1C3309DE004CC265 /* QuartzCore.framework in Frameworks */,
+				2BCDD19E1C3309DE004CC265 /* Security.framework in Frameworks */,
+				2BCDD19F1C3309DE004CC265 /* StoreKit.framework in Frameworks */,
+				2BCDD1A01C3309DE004CC265 /* SystemConfiguration.framework in Frameworks */,
+				2BCDD1901C3309DE004CC265 /* Parse.framework in Frameworks */,
+				2BCDD18F1C3309DE004CC265 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +86,16 @@
 		2BCDD16F1C3309DE004CC265 = {
 			isa = PBXGroup;
 			children = (
+				2BCDD1A31C3309DE004CC265 /* libsqlite3.tbd */,
+				2BCDD1A11C3309DE004CC265 /* libz.tbd */,
+				2BCDD1911C3309DE004CC265 /* AudioToolbox.framework */,
+				2BCDD1921C3309DE004CC265 /* CFNetwork.framework */,
+				2BCDD1931C3309DE004CC265 /* CoreGraphics.framework */,
+				2BCDD1941C3309DE004CC265 /* CoreLocation.framework */,
+				2BCDD1951C3309DE004CC265 /* QuartzCore.framework */,
+				2BCDD1961C3309DE004CC265 /* Security.framework */,
+				2BCDD1971C3309DE004CC265 /* StoreKit.framework */,
+				2BCDD1981C3309DE004CC265 /* SystemConfiguration.framework */,
 				2BCDD17A1C3309DE004CC265 /* CuitCuit */,
 				2BCDD1791C3309DE004CC265 /* Products */,
 			);
@@ -54,12 +112,20 @@
 		2BCDD17A1C3309DE004CC265 /* CuitCuit */ = {
 			isa = PBXGroup;
 			children = (
+				2B03CF1F1C34575500E05D57 /* StatusDetailViewController.swift */,
+				2B03CF1B1C34575500E05D57 /* user_icon.png */,
 				2BCDD17B1C3309DE004CC265 /* AppDelegate.swift */,
-				2BCDD17D1C3309DE004CC265 /* ViewController.swift */,
+				2BCDD17D1C3309DE004CC265 /* LoginViewController.swift */,
 				2BCDD17F1C3309DE004CC265 /* Main.storyboard */,
+				2BCDD1AB1C3309DE004CC265 /* StatusCell.swift */,
+				2BCDD1A91C3309DE004CC265 /* LiveUpdateViewController.swift */,
+				2BCDD1A51C3309DE004CC265 /* RegisterViewController.swift */,
 				2BCDD1821C3309DE004CC265 /* Assets.xcassets */,
 				2BCDD1841C3309DE004CC265 /* LaunchScreen.storyboard */,
 				2BCDD1871C3309DE004CC265 /* Info.plist */,
+				2BCDD18D1C3309DE004CC265 /* Bolts.framework */,
+				2BCDD18E1C3309DE004CC265 /* Parse.framework */,
+				2BCDD1A71C3309DE004CC265 /* StatusUpdateViewController.swift */,
 			);
 			path = CuitCuit;
 			sourceTree = "<group>";
@@ -124,6 +190,7 @@
 			files = (
 				2BCDD1861C3309DE004CC265 /* LaunchScreen.storyboard in Resources */,
 				2BCDD1831C3309DE004CC265 /* Assets.xcassets in Resources */,
+				2B03CF1C1C34575500E05D57 /* user_icon.png in Resources */,
 				2BCDD1811C3309DE004CC265 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BCDD17E1C3309DE004CC265 /* ViewController.swift in Sources */,
+				2BCDD1AA1C3309DE004CC265 /* LiveUpdateViewController.swift in Sources */,
+				2BCDD1A61C3309DE004CC265 /* RegisterViewController.swift in Sources */,
+				2BCDD17E1C3309DE004CC265 /* LoginViewController.swift in Sources */,
+				2BCDD1A81C3309DE004CC265 /* StatusUpdateViewController.swift in Sources */,
 				2BCDD17C1C3309DE004CC265 /* AppDelegate.swift in Sources */,
+				2BCDD1AC1C3309DE004CC265 /* StatusCell.swift in Sources */,
+				2B03CF201C34575500E05D57 /* StatusDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +319,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CuitCuit",
+				);
 				INFOPLIST_FILE = CuitCuit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GDP-Labs.CuitCuit";
@@ -258,6 +334,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CuitCuit",
+				);
 				INFOPLIST_FILE = CuitCuit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GDP-Labs.CuitCuit";
@@ -284,6 +364,7 @@
 				2BCDD18C1C3309DE004CC265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
